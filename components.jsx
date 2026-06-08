@@ -104,7 +104,7 @@ function Footer({ t }) {
         <div className="footer-meta" style={{ display: "flex", gap: 16 }}>
           <a href="#/about">{t.nav.about}</a>
           <a href="#/contact">{t.nav.contact}</a>
-          <a href="https://www.linkedin.com/in/%D0%BC%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE-%D1%82%D1%80%D0%BE%D0%B9%D0%BD%D1%96%D0%BD-21647625a" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://www.linkedin.com/in/mykhailo-troynin" target="_blank" rel="noreferrer">LinkedIn ↗</a>
         </div>
       </div>
     </footer>);
@@ -1219,7 +1219,7 @@ function AboutPage({ lang }) {
                 <span className="label">TELEGRAM</span>
                 <span>@Troynin_M ↗</span>
               </a>
-              <a href="https://www.linkedin.com/in/%D0%BC%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE-%D1%82%D1%80%D0%BE%D0%B9%D0%BD%D1%96%D0%BD-21647625a" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/mykhailo-troynin" target="_blank" rel="noreferrer">
                 <span className="label">LINKEDIN</span>
                 <span>Mykhailo Troynin ↗</span>
               </a>
@@ -1433,7 +1433,7 @@ function ContactPage({ lang }) {
                 <span className="label">EMAIL</span>
                 <span>mihajlotrojnin@gmail.com</span>
               </a>
-              <a className="channel" href="https://www.linkedin.com/in/%D0%BC%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE-%D1%82%D1%80%D0%BE%D0%B9%D0%BD%D1%96%D0%BD-21647625a" target="_blank" rel="noreferrer">
+              <a className="channel" href="https://www.linkedin.com/in/mykhailo-troynin" target="_blank" rel="noreferrer">
                 <span className="label">LINKEDIN</span>
                 <span>Mykhailo Troynin ↗</span>
               </a>
