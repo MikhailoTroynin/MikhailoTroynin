@@ -21,6 +21,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://mikhailotroynin.github.io/MikhailoTroynin/#/articles</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mikhailotroynin.github.io/MikhailoTroynin/#/article/three-checks-instead-of-one</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://mikhailotroynin.github.io/MikhailoTroynin/#/about</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>

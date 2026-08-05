@@ -59,7 +59,7 @@ function Header({ t, lang, setLang, page }) {
           {items.map((it) =>
           <a key={it.id}
           href={"#/" + it.id}
-          className={"nav-link" + (page === it.id || page === "sample" && it.id === "work" ? " is-active" : "")}
+          className={"nav-link" + (page === it.id || (it.id === "work" && (page === "sample" || page === "articles" || page === "article")) ? " is-active" : "")}
           onClick={() => setOpen(false)}>
               {it.label}
             </a>
@@ -405,7 +405,7 @@ function WorkPage({ lang }) {
   const list = useMemo(() => {
     const idx = t.filters.indexOf(filter);
     if (idx <= 0) return window.SAMPLES;
-    const cat = ["", "API Docs", "Code-to-Docs", "AI Workflow"][idx];
+    const cat = ["", "API Docs", "Code-to-Docs", "AI Workflow", "Articles"][idx];
     return window.SAMPLES.filter((s) => s.category === cat);
   }, [filter, lang]);
 
@@ -421,7 +421,7 @@ function WorkPage({ lang }) {
           role="tab"
           aria-selected={filter === f}
           className={"filter-pill" + (filter === f ? " is-active" : "")}
-          onClick={() => { if (f === "AI Workflow") { navigate("workflow"); } else { setFilter(f); } }}>
+          onClick={() => { if (f === "AI Workflow") { navigate("workflow"); } else if (f === "Articles" || f === "Статті") { navigate("articles"); } else { setFilter(f); } }}>
               {f}
             </button>
           )}

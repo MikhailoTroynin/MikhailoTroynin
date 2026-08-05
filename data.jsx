@@ -22,6 +22,13 @@ window.I18N = {
     },
     featured: { title: 'Featured samples', subtitle: 'Selected portfolio pieces.', viewAll: 'All samples' },
     workflow: { title: 'AI-assisted documentation workflow', subtitle: 'A repeatable, Git-based AI flow for documenting any product feature, module, or codebase area.', cta: 'Open workflow' },
+    articlesPage: {
+      title: 'Articles',
+      subtitle: 'Long-form notes on AI-assisted documentation practice.',
+      back: 'All articles',
+      published: 'Published',
+      readTime: 'min read',
+    },
     tools: {
       title: 'Tooling',
       groups: [
@@ -38,7 +45,7 @@ window.I18N = {
     workPage: {
       title: 'Work samples',
       subtitle: 'Documentation examples.',
-      filters: ['All', 'API Docs', 'Code-to-Docs', 'AI Workflow'],
+      filters: ['All', 'API Docs', 'Code-to-Docs', 'AI Workflow', 'Articles'],
       input: 'Input', output: 'Output', view: 'View case', github: 'Open on GitHub'
     },
 
@@ -180,6 +187,13 @@ window.I18N = {
     },
     featured: { title: 'Обрані приклади', subtitle: 'Кейси з портфоліо.', viewAll: 'Усі приклади' },
     workflow: { title: 'AI-assisted документаційний workflow', subtitle: 'Повторюваний Git-based AI flow для документування будь-якої фічі продукту, модуля або ділянки кодової бази.', cta: 'Відкрити процес' },
+    articlesPage: {
+      title: 'Статті',
+      subtitle: 'Розгорнуті нотатки про практику AI-assisted документування.',
+      back: 'Усі статті',
+      published: 'Опубліковано',
+      readTime: 'хв читання',
+    },
     tools: {
       title: 'Інструменти',
       groups: [
@@ -196,7 +210,7 @@ window.I18N = {
     workPage: {
       title: 'Приклади робіт',
       subtitle: 'Приклади технічної документації.',
-      filters: ['Усі', 'API Docs', 'Code-to-Docs', 'AI Workflow'],
+      filters: ['Усі', 'API Docs', 'Code-to-Docs', 'AI Workflow', 'Статті'],
       input: 'Вхід', output: 'Вихід', view: 'Дивитися кейс', github: 'Відкрити на GitHub'
     },
 
