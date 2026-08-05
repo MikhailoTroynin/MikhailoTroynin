@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5c6577"/></marker><marker id="arrowWarn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ef6a86"/></marker><marker id="arrowOk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#34d399"/></marker></defs>
+<rect x="0" y="0" width="1040" height="560" rx="16" fill="#0c0f16"/>
+<circle cx="44" cy="54" r="5" fill="#2fd8dc"/>
+<text x="60" y="60" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="600" letter-spacing="1.5" fill="#2fd8dc">PLAN FIRST, PROMPT SECOND</text>
+<line x1="30" y1="78" x2="1010" y2="78" stroke="#2a3244" stroke-width="1"/>
+<line x1="30" y1="488" x2="1010" y2="488" stroke="#2a3244" stroke-width="1"/>
+<text x="30" y="522" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif" font-style="italic" font-size="18" fill="#f3f1ea">A plan negotiated in language is cheaper than one negotiated in a diff.</text>
+<text x="1010" y="522" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5c6577">illustration 1 / 1</text>
+
+<text x="30" y="132" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-weight="700" font-size="13" letter-spacing="1" fill="#ef6a86">PROMPT-FIRST</text>
+<rect x="30" y="150" width="150" height="64" rx="10" fill="#171d29" stroke="#2a3244" stroke-width="1.5"/>
+<text x="105" y="187" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#f3f1ea">prompt</text>
+<path d="M 180 182 L 250 182" stroke="#5c6577" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+<rect x="250" y="150" width="150" height="64" rx="10" fill="#171d29" stroke="#2a3244" stroke-width="1.5"/>
+<text x="325" y="187" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#f3f1ea">diff</text>
+<path d="M 400 182 L 470 182" stroke="#ef6a86" stroke-width="1.8" fill="none" marker-end="url(#arrowWarn)"/>
+<rect x="470" y="150" width="290" height="64" rx="10" fill="#241a1f" stroke="#5a2b38" stroke-width="1.5"/>
+<path d="M 496 195 L 512 167 L 528 195 Z" fill="none" stroke="#ef6a86" stroke-width="2.2" stroke-linejoin="round"/>
+<line x1="512" y1="177" x2="512" y2="184" stroke="#ef6a86" stroke-width="2"/>
+<circle cx="512" cy="190" r="1.3" fill="#ef6a86"/>
+<text x="540" y="177" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#f3f1ea">scope drift</text>
+<text x="540" y="197" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#c98a97">caught on review, or not at all</text>
+
+<text x="30" y="282" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-weight="700" font-size="13" letter-spacing="1" fill="#2fd8dc">PLAN-FIRST</text>
+<rect x="30" y="300" width="120" height="64" rx="10" fill="#171d29" stroke="#2a3244" stroke-width="1.5"/>
+<text x="90" y="337" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#f3f1ea">spec</text>
+<path d="M 150 332 L 200 332" stroke="#5c6577" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+<rect x="200" y="300" width="120" height="64" rx="10" fill="#171d29" stroke="#2a3244" stroke-width="1.5"/>
+<text x="260" y="337" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#f3f1ea">plan</text>
+<path d="M 320 332 L 370 332" stroke="#5c6577" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+<rect x="370" y="300" width="180" height="64" rx="10" fill="#171d29" stroke="#2a3244" stroke-width="1.5"/>
+<text x="460" y="330" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#f3f1ea">task backlog</text>
+<text x="460" y="349" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#93a0b3">persists across sessions</text>
+<path d="M 550 332 L 600 332" stroke="#5c6577" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+<rect x="600" y="300" width="160" height="64" rx="10" fill="#12241c" stroke="#245c44" stroke-width="1.5"/>
+<circle cx="628" cy="332" r="12" fill="none" stroke="#34d399" stroke-width="2.4"/>
+<path d="M 622 332 L 627 337.5 L 636 325" stroke="#34d399" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="650" y="329" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#f3f1ea">diff</text>
+<text x="650" y="349" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#93a0b3">reviewed, no cleanup</text>
+
+<path d="M 178 214 L 178 300" stroke="#2a3244" stroke-width="1" stroke-dasharray="3 4"/>
+<path d="M 400 214 L 400 300" stroke="#2a3244" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="850" y="185" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#5c6577" text-anchor="middle">scope negotiated</text>
+<text x="850" y="202" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#5c6577" text-anchor="middle">inside the diff</text>
+<text x="850" y="335" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#5c6577" text-anchor="middle">scope negotiated</text>
+<text x="850" y="352" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#5c6577" text-anchor="middle">before any file moves</text>
+</svg>
