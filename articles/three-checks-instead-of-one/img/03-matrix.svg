@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+<rect x="0" y="0" width="1000" height="560" rx="16" fill="#0c0f16"/>
+<circle cx="44" cy="54" r="5" fill="#2fd8dc"/>
+<text x="60" y="60" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="600" letter-spacing="1.5" fill="#2fd8dc">VERDICT AND CONFIDENCE — TWO DIFFERENT AXES</text>
+<line x1="30" y1="78" x2="970" y2="78" stroke="#2a3244" stroke-width="1"/>
+<line x1="30" y1="488" x2="970" y2="488" stroke="#2a3244" stroke-width="1"/>
+<text x="30" y="522" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif" font-style="italic" font-size="18" fill="#f3f1ea">Without this split, the verifier either stays too quiet or flags everything.</text>
+<text x="970" y="522" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#5c6577">illustration 3 / 3</text>
+<text x="450.0" y="145" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#93a0b3">low confidence</text>
+<text x="780.0" y="145" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#93a0b3">high confidence</text>
+<text x="276" y="245.0" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-weight="700" font-size="16" fill="#f3f1ea">SUPPORTED</text>
+<text x="276" y="415.0" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-weight="700" font-size="16" fill="#f3f1ea">NOT_IN_SOURCES</text>
+<rect x="300" y="165" width="300" height="150" rx="12" fill="#123024" stroke="#2f6b52" stroke-width="1.5"/>
+<circle cx="334" cy="199" r="15" fill="#34d399"/>
+<path d="M 328 199 L 333 204 L 341 192" stroke="#0c0f16" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="450.0" y="273.0" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="15" fill="#f3f1ea">leave as is</text>
+<rect x="630" y="165" width="300" height="150" rx="12" fill="#123024" stroke="#2f6b52" stroke-width="1.5"/>
+<circle cx="664" cy="199" r="15" fill="#34d399"/>
+<path d="M 658 199 L 663 204 L 671 192" stroke="#0c0f16" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="780.0" y="273.0" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="15" fill="#f3f1ea">leave as is</text>
+<rect x="300" y="335" width="300" height="150" rx="12" fill="#2e2510" stroke="#7a5a1c" stroke-width="1.5"/>
+<circle cx="334" cy="369" r="15" fill="#e8b93b"/>
+<text x="334" y="375" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-weight="700" font-size="16" fill="#0c0f16">?</text>
+<text x="450.0" y="432.5" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="15" fill="#f3f1ea">more likely a gap</text>
+<text x="450.0" y="453.5" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="15" fill="#f3f1ea">in navigation_index</text>
+<rect x="630" y="335" width="300" height="150" rx="12" fill="#2e1620" stroke="#7a3348" stroke-width="1.5"/>
+<circle cx="664" cy="369" r="15" fill="#ef6a86"/>
+<text x="664" y="375" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-weight="700" font-size="16" fill="#0c0f16">!</text>
+<text x="780.0" y="432.5" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="15" fill="#f3f1ea">more likely a hallucination</text>
+<text x="780.0" y="453.5" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="15" fill="#f3f1ea">— flag it</text>
+</svg>

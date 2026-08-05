@@ -47,6 +47,8 @@ function App() {
     case "home": pageEl = <window.HomePage lang={tweaks.lang}/>; break;
     case "work": pageEl = <window.WorkPage lang={tweaks.lang}/>; break;
     case "sample": pageEl = <window.SampleDetailPage lang={tweaks.lang} id={route.param}/>; break;
+    case "articles": pageEl = <window.ArticlesPage lang={tweaks.lang}/>; break;
+    case "article": pageEl = <window.ArticlePage lang={tweaks.lang} id={route.param}/>; break;
     case "api-docs": pageEl = <window.ApiDocsListPage lang={tweaks.lang}/>; break;
     case "api-doc": pageEl = <window.ApiDocPage lang={tweaks.lang} id={route.param}/>; break;
     case "ev-doc": pageEl = <window.EdgeVedaDocPage lang={tweaks.lang} slug={route.param}/>; break;
